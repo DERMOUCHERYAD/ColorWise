@@ -2,6 +2,9 @@
 
 ## Introduction
 ColorWise est une application qui permet d'explorer les graphes et de découvrir les algorithmes de coloriage. Elle utilise une interface graphique pour afficher les résultats et les informations pertinentes.
+## Remarque 
+Un fichier nommé `exemples.txt` dans le package contient des exemples de matrices, étiquetages, sommets et autres données de test que vous pouvez utiliser pour explorer les fonctionnalités de l'application.
+
 
 ## Prérequis
 - Python 3.8 ou supérieur installé sur votre machine.
@@ -9,9 +12,9 @@ ColorWise est une application qui permet d'explorer les graphes et de découvrir
 ## Installation
 Pour installer et exécuter ce projet, suivez les étapes ci-dessous :
 
-1. Clonez le dépôt :
+1. Clonez le dépôt : ou  Décompresser le fichier Zip 
     ```bash
-    git clone https://github.com/votre-utilisateur/votre-repo.git
+    git clone https://github.com/DERMOUCHERYAD/ColorWise.git
     cd votre-repo
     ```
 
@@ -33,6 +36,8 @@ Pour lancer l'application, exécutez le fichier principal :
 ```bash
 python main.py
 ```
+## Remarque 
+Un fichier nommé `exemples.txt` dans le package contient des exemples de matrices, étiquetages, sommets et autres données de test que vous pouvez utiliser pour explorer les fonctionnalités de l'application.
 
 ## Empaquetage en exécutable (facultatif)
 Pour générer un fichier exécutable unique, utilisez PyInstaller :
@@ -40,7 +45,7 @@ Pour générer un fichier exécutable unique, utilisez PyInstaller :
 ```bash
 pyinstaller --onefile main.py
 ```
-Le fichier exécutable sera dans le dossier `dist`.
+Le fichier exécutable sera dans le dossier `dist`. (Attention il faut inclure les images de l'applications)
 
 ## Fonctionnalités
 -Affichage des graphes
@@ -53,6 +58,10 @@ Le fichier exécutable sera dans le dossier `dist`.
 2.  model.py : Contient la logique métier et les algorithmes de coloriage.
 3.  view.py : Gère l'affichage de l'interface utilisateur.
 4.  controller.py : Interagit avec le modèle et la vue pour         orchestrer les actions de l'utilisateur.
+
+## Documentation 
+      docs/DETAILS.md (pour une documentation générale)
+      build/(pour une documentation détaillée )  
 
 ## Contributeurs
 DERMOUCHE Mohammed Ryad
